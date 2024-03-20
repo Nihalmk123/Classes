@@ -1,0 +1,6 @@
+step1:start
+step2:create an empty list
+step3:iterate through the list using for loop and if it is equal to 0 append to the the new list
+atep4:iterate again through the list if it is equal to 1 append it to the new list 
+step5:print the list 
+step:stop
