@@ -1,0 +1,31 @@
+#print numbers untill n <= 10
+def print_numbers(n):
+    if n <= 10:
+        print(n)
+        print_numbers(n + 1)
+
+print_numbers(0)
+
+
+#calculate the factorial of number
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print("Factorial of 5 is:", factorial(5))
+
+
+#multiplication using recursion
+def multiply_list(lst):
+    if len(lst) == 0:
+        return 1
+    else:
+        return lst[0] * multiply_list(lst[1:])
+
+my_list = [1, 2, 3, 4, 5]
+result = multiply_list(my_list)
+print("multiplication of list:", result)
+
+
